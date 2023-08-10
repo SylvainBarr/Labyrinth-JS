@@ -1,0 +1,23 @@
+.my-labyrinth{
+ width: fit-content;
+ border: 5px solid red;
+}
+.box{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: green;
+    background-color: black;
+    &.arrivee{
+        background-color: rgb(91, 91, 91);
+    }
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
